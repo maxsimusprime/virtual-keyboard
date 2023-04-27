@@ -1,5 +1,5 @@
 const path = require('path');
-const HtmlWebpackPlugin = require("html-webpack-plugin");
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
@@ -8,30 +8,30 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
   module: {
-		rules: [
-			{
-				test: /\.html$/,
-				use: [{ loader: 'html-loader', options: { minimize: true } }]
-			},
+    rules: [
+      {
+        test: /\.html$/,
+        use: [{ loader: 'html-loader', options: { minimize: true } }],
+      },
       {
         test: /\.s[ac]ss$/i,
         use: [
-              'style-loader',
-              'css-loader',
-              'sass-loader',
-              { loader: 'sass-resource-loader',	options: { resources: ['src/styles/vars.scss'] }}
-        ]
-      }
-		]
-	},
-	plugins: [
+          'style-loader',
+          'css-loader',
+          'sass-loader',
+          { loader: 'sass-resource-loader', options: { resources: ['src/styles/vars.scss'] } },
+        ],
+      },
+    ],
+  },
+  plugins: [
     new HtmlWebpackPlugin({
-			template: './src/index.html',
-			filename: './index.html',
-		}),
+      template: './src/index.html',
+      filename: './index.html',
+    }),
   ],
-	devServer: {
-		compress: true,
-		port: 3000,
-	},
+  devServer: {
+    compress: true,
+    port: 3000,
+  },
 };
