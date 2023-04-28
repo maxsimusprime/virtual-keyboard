@@ -1,0 +1,47 @@
+.body{
+  background-color: #d6d6d6;
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  row-gap: 100px;
+  align-items: center;
+  padding: 100px 0 0 0;
+}
+
+.keys {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.keys__row {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.key {
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  width: 55px;
+  height: 55px;
+  box-shadow: 5px 5px 5px #474343, -5px -5px 10px #fff;
+  background: #d6d6d6;
+  font: 20px Arial, Helvetica, sans-serif;
+  color: black;
+
+  &:active {
+    box-shadow: 1px 1px 2px #fff8f8, -1px -1px 2px #474343;
+  }
+}
+
+.key_size_middle {
+  width: 120px;
+}
+
+.key_size_big {
+  width: 445px;
+}
