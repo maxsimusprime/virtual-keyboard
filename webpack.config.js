@@ -19,7 +19,7 @@ module.exports = {
           'style-loader',
           'css-loader',
           'sass-loader',
-          { loader: 'sass-resource-loader', options: { resources: ['src/styles/vars.scss'] } },
+          { loader: 'sass-resources-loader', options: { resources: ['src/styles/vars.scss'] } },
         ],
       },
     ],
