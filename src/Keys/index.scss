@@ -1,0 +1,39 @@
+.keys {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.keys__row {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.key {
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  width: 55px;
+  height: 55px;
+  box-shadow: 5px 5px 5px $main-color-dark,
+              -5px -5px 10px $main-color-light;
+  color: $main-color-text;
+  background: $main-color;
+  font: 20px Arial, sans-serif;
+
+  &:active {
+    background: $main-color-active;
+    box-shadow: 1px 1px 2px $shadow-color-light, 
+                -1px -1px 2px $shadow-color-dark;
+  }
+
+}
+
+.key_size_middle {
+  width: 120px;
+}
+
+.key_size_big {
+  width: 445px;
+}
