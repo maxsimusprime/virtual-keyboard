@@ -4,229 +4,395 @@ export default {
       {
         code: 'Backquote',
         size: 'small',
-        en: {
-          key: '`',
-          capsAndKey: '`',
-          shiftAndKey: '~',
-        },
-        ru: {
-          key: 'ё',
-          capsAndKey: 'Ё',
-          shiftAndKey: 'Ё',
-        },
+        en: { key: '`', capsAndKey: '`', shiftAndKey: '~' },
+        ru: { key: 'ё', capsAndKey: 'Ё', shiftAndKey: 'Ё' },
       },
       {
         code: 'Digit1',
         size: 'small',
-        en: {
-          key: '1',
-          capsAndKey: '1',
-          shiftAndKey: '!',
-        },
-        ru: {
-          key: '1',
-          capsAndKey: '1',
-          shiftAndKey: '!',
-        },
+        en: { key: '1', capsAndKey: '1', shiftAndKey: '!' },
+        ru: { key: '1', capsAndKey: '1', shiftAndKey: '!' },
+      },
+      {
+        code: 'Digit2',
+        size: 'small',
+        en: { key: '2', capsAndKey: '2', shiftAndKey: '@' },
+        ru: { key: '2', capsAndKey: '2', shiftAndKey: '"' },
+      },
+      {
+        code: 'Digit3',
+        size: 'small',
+        en: { key: '3', capsAndKey: '3', shiftAndKey: '#' },
+        ru: { key: '3', capsAndKey: '3', shiftAndKey: '№' },
+      },
+      {
+        code: 'Digit4',
+        size: 'small',
+        en: { key: '4', capsAndKey: '4', shiftAndKey: '$' },
+        ru: { key: '4', capsAndKey: '4', shiftAndKey: ';' },
+      },
+      {
+        code: 'Digit5',
+        size: 'small',
+        en: { key: '5', capsAndKey: '5', shiftAndKey: '%' },
+        ru: { key: '5', capsAndKey: '5', shiftAndKey: '%' },
+      },
+      {
+        code: 'Digit6',
+        size: 'small',
+        en: { key: '6', capsAndKey: '6', shiftAndKey: '^' },
+        ru: { key: '6', capsAndKey: '6', shiftAndKey: ':' },
+      },
+      {
+        code: 'Digit7',
+        size: 'small',
+        en: { key: '7', capsAndKey: '7', shiftAndKey: '&' },
+        ru: { key: '7', capsAndKey: '7', shiftAndKey: '?' },
+      },
+      {
+        code: 'Digit8',
+        size: 'small',
+        en: { key: '8', capsAndKey: '8', shiftAndKey: '*' },
+        ru: { key: '8', capsAndKey: '8', shiftAndKey: '*' },
+      },
+      {
+        code: 'Digit9',
+        size: 'small',
+        en: { key: '9', capsAndKey: '9', shiftAndKey: '(' },
+        ru: { key: '9', capsAndKey: '9', shiftAndKey: '(' },
+      },
+      {
+        code: 'Digit0',
+        size: 'small',
+        en: { key: '0', capsAndKey: '0', shiftAndKey: ')' },
+        ru: { key: '0', capsAndKey: '0', shiftAndKey: ')' },
+      },
+      {
+        code: 'Minus',
+        size: 'small',
+        en: { key: '-', capsAndKey: '-', shiftAndKey: '_' },
+        ru: { key: '-', capsAndKey: '-', shiftAndKey: '_' },
+      },
+      {
+        code: 'Equal',
+        size: 'small',
+        en: { key: '=', capsAndKey: '=', shiftAndKey: '+' },
+        ru: { key: '=', capsAndKey: '=', shiftAndKey: '+' },
+      },
+      {
+        code: 'Backspace',
+        size: 'middle',
+        en: { key: 'Backspace', capsAndKey: 'Backspace', shiftAndKey: 'Backspace' },
+        ru: { key: 'Backspace', capsAndKey: 'Backspace', shiftAndKey: 'Backspace' },
       },
     ],
     [
       {
         code: 'Tab',
         size: 'small',
-        en: {
-          key: 'Tab',
-          capsAndKey: 'Tab',
-          shiftAndKey: 'Tab',
-        },
-        ru: {
-          key: 'Tab',
-          capsAndKey: 'Tab',
-          shiftAndKey: 'Tab',
-        },
+        en: { key: 'Tab', capsAndKey: 'Tab', shiftAndKey: 'Tab' },
+        ru: { key: 'Tab', capsAndKey: 'Tab', shiftAndKey: 'Tab' },
+      },
+      {
+        code: 'KeyQ',
+        size: 'small',
+        en: { key: 'q', capsAndKey: 'Q', shiftAndKey: 'Q' },
+        ru: { key: 'й', capsAndKey: 'Й', shiftAndKey: 'Й' },
+      },
+      {
+        code: 'KeyW',
+        size: 'small',
+        en: { key: 'w', capsAndKey: 'W', shiftAndKey: 'W' },
+        ru: { key: 'ц', capsAndKey: 'Ц', shiftAndKey: 'Ц' },
+      },
+      {
+        code: 'KeyE',
+        size: 'small',
+        en: { key: 'e', capsAndKey: 'E', shiftAndKey: 'E' },
+        ru: { key: 'у', capsAndKey: 'У', shiftAndKey: 'У' },
+      },
+      {
+        code: 'KeyR',
+        size: 'small',
+        en: { key: 'r', capsAndKey: 'R', shiftAndKey: 'R' },
+        ru: { key: 'к', capsAndKey: 'К', shiftAndKey: 'К' },
+      },
+      {
+        code: 'KeyT',
+        size: 'small',
+        en: { key: 't', capsAndKey: 'T', shiftAndKey: 'T' },
+        ru: { key: 'е', capsAndKey: 'Е', shiftAndKey: 'Е' },
+      },
+      {
+        code: 'KeyY',
+        size: 'small',
+        en: { key: 'y', capsAndKey: 'Y', shiftAndKey: 'Y' },
+        ru: { key: 'н', capsAndKey: 'Н', shiftAndKey: 'Н' },
+      },
+      {
+        code: 'KeyU',
+        size: 'small',
+        en: { key: 'u', capsAndKey: 'U', shiftAndKey: 'U' },
+        ru: { key: 'г', capsAndKey: 'Г', shiftAndKey: 'Г' },
+      },
+      {
+        code: 'KeyI',
+        size: 'small',
+        en: { key: 'i', capsAndKey: 'I', shiftAndKey: 'I' },
+        ru: { key: 'ш', capsAndKey: 'Ш', shiftAndKey: 'Ш' },
+      },
+      {
+        code: 'KeyO',
+        size: 'small',
+        en: { key: 'o', capsAndKey: 'O', shiftAndKey: 'O' },
+        ru: { key: 'щ', capsAndKey: 'Щ', shiftAndKey: 'Щ' },
+      },
+      {
+        code: 'KeyP',
+        size: 'small',
+        en: { key: 'p', capsAndKey: 'P', shiftAndKey: 'P' },
+        ru: { key: 'з', capsAndKey: 'З', shiftAndKey: 'З' },
+      },
+      {
+        code: 'BracketLeft',
+        size: 'small',
+        en: { key: '[', capsAndKey: '[', shiftAndKey: '{' },
+        ru: { key: 'х', capsAndKey: 'Х', shiftAndKey: 'Х' },
+      },
+      {
+        code: 'BracketRight',
+        size: 'small',
+        en: { key: ']', capsAndKey: ']', shiftAndKey: '}' },
+        ru: { key: 'ъ', capsAndKey: 'Ъ', shiftAndKey: 'Ъ' },
+      },
+      {
+        code: 'Backslash',
+        size: 'small',
+        en: { key: '\\', capsAndKey: '\\', shiftAndKey: '|' },
+        ru: { key: '\\', capsAndKey: '\\', shiftAndKey: '/' },
+      },
+      {
+        code: 'Delete',
+        size: 'small',
+        en: { key: 'Del', capsAndKey: 'Del', shiftAndKey: 'Del' },
+        ru: { key: 'Del', capsAndKey: 'Del', shiftAndKey: 'Del' },
       },
     ],
     [
       {
         code: 'CapsLock',
         size: 'middle',
-        en: {
-          key: 'CapsLock',
-          capsAndKey: 'CapsLock',
-          shiftAndKey: 'CapsLock',
-        },
-        ru: {
-          key: 'CapsLock',
-          capsAndKey: 'CapsLock',
-          shiftAndKey: 'CapsLock',
-        },
+        en: { key: 'CapsLock', capsAndKey: 'CapsLock', shiftAndKey: 'CapsLock' },
+        ru: { key: 'CapsLock', capsAndKey: 'CapsLock', shiftAndKey: 'CapsLock' },
+      },
+      {
+        code: 'KeyA',
+        size: 'small',
+        en: { key: 'a', capsAndKey: 'A', shiftAndKey: 'A' },
+        ru: { key: 'ф', capsAndKey: 'Ф', shiftAndKey: 'Ф' },
+      },
+      {
+        code: 'KeyS',
+        size: 'small',
+        en: { key: 's', capsAndKey: 'S', shiftAndKey: 'S' },
+        ru: { key: 'ы', capsAndKey: 'Ы', shiftAndKey: 'Ы' },
+      },
+      {
+        code: 'KeyD',
+        size: 'small',
+        en: { key: 'd', capsAndKey: 'D', shiftAndKey: 'D' },
+        ru: { key: 'в', capsAndKey: 'В', shiftAndKey: 'В' },
+      },
+      {
+        code: 'KeyF',
+        size: 'small',
+        en: { key: 'f', capsAndKey: 'F', shiftAndKey: 'F' },
+        ru: { key: 'а', capsAndKey: 'А', shiftAndKey: 'А' },
+      },
+      {
+        code: 'KeyG',
+        size: 'small',
+        en: { key: 'g', capsAndKey: 'G', shiftAndKey: 'G' },
+        ru: { key: 'п', capsAndKey: 'П', shiftAndKey: 'П' },
+      },
+      {
+        code: 'KeyH',
+        size: 'small',
+        en: { key: 'h', capsAndKey: 'H', shiftAndKey: 'H' },
+        ru: { key: 'р', capsAndKey: 'Р', shiftAndKey: 'Р' },
+      },
+      {
+        code: 'KeyJ',
+        size: 'small',
+        en: { key: 'j', capsAndKey: 'J', shiftAndKey: 'J' },
+        ru: { key: 'о', capsAndKey: 'О', shiftAndKey: 'О' },
+      },
+      {
+        code: 'KeyK',
+        size: 'small',
+        en: { key: 'k', capsAndKey: 'K', shiftAndKey: 'K' },
+        ru: { key: 'л', capsAndKey: 'Л', shiftAndKey: 'Л' },
+      },
+      {
+        code: 'KeyL',
+        size: 'small',
+        en: { key: 'l', capsAndKey: 'L', shiftAndKey: 'L' },
+        ru: { key: 'д', capsAndKey: 'Д', shiftAndKey: 'Д' },
+      },
+      {
+        code: 'Semicolon',
+        size: 'small',
+        en: { key: ';', capsAndKey: ';', shiftAndKey: ':' },
+        ru: { key: 'ж', capsAndKey: 'Ж', shiftAndKey: 'Ж' },
+      },
+      {
+        code: 'Quote',
+        size: 'small',
+        en: { key: "'", capsAndKey: "'", shiftAndKey: '"' },
+        ru: { key: 'э', capsAndKey: 'Э', shiftAndKey: 'Э' },
+      },
+      {
+        code: 'Enter',
+        size: 'middle',
+        en: { key: 'Enter', capsAndKey: 'Enter', shiftAndKey: 'Enter' },
+        ru: { key: 'Enter', capsAndKey: 'Enter', shiftAndKey: 'Enter' },
       },
     ],
     [
       {
         code: 'ShiftLeft',
         size: 'middle',
-        en: {
-          key: 'Shift',
-          capsAndKey: 'Shift',
-          shiftAndKey: 'Shift',
-        },
-        ru: {
-          key: 'Shift',
-          capsAndKey: 'Shift',
-          shiftAndKey: 'Shift',
-        },
+        en: { key: 'Shift', capsAndKey: 'Shift', shiftAndKey: 'Shift' },
+        ru: { key: 'Shift', capsAndKey: 'Shift', shiftAndKey: 'Shift' },
+      },
+      {
+        code: 'KeyZ',
+        size: 'small',
+        en: { key: 'z', capsAndKey: 'Z', shiftAndKey: 'Z' },
+        ru: { key: 'я', capsAndKey: 'Я', shiftAndKey: 'Я' },
+      },
+      {
+        code: 'KeyX',
+        size: 'small',
+        en: { key: 'x', capsAndKey: 'X', shiftAndKey: 'X' },
+        ru: { key: 'ч', capsAndKey: 'Ч', shiftAndKey: 'Ч' },
+      },
+      {
+        code: 'KeyC',
+        size: 'small',
+        en: { key: 'c', capsAndKey: 'C', shiftAndKey: 'C' },
+        ru: { key: 'с', capsAndKey: 'С', shiftAndKey: 'С' },
+      },
+      {
+        code: 'KeyV',
+        size: 'small',
+        en: { key: 'v', capsAndKey: 'V', shiftAndKey: 'V' },
+        ru: { key: 'м', capsAndKey: 'М', shiftAndKey: 'М' },
+      },
+      {
+        code: 'KeyB',
+        size: 'small',
+        en: { key: 'b', capsAndKey: 'B', shiftAndKey: 'B' },
+        ru: { key: 'и', capsAndKey: 'И', shiftAndKey: 'И' },
+      },
+      {
+        code: 'KeyN',
+        size: 'small',
+        en: { key: 'n', capsAndKey: 'N', shiftAndKey: 'N' },
+        ru: { key: 'т', capsAndKey: 'Т', shiftAndKey: 'Т' },
+      },
+      {
+        code: 'KeyM',
+        size: 'small',
+        en: { key: 'm', capsAndKey: 'M', shiftAndKey: 'M' },
+        ru: { key: 'ь', capsAndKey: 'Ь', shiftAndKey: 'Ь' },
+      },
+      {
+        code: 'Comma',
+        size: 'small',
+        en: { key: ',', capsAndKey: ',', shiftAndKey: '<' },
+        ru: { key: 'б', capsAndKey: 'Б', shiftAndKey: 'Б' },
+      },
+      {
+        code: 'Period',
+        size: 'small',
+        en: { key: '.', capsAndKey: '.', shiftAndKey: '>' },
+        ru: { key: 'ю', capsAndKey: 'Ю', shiftAndKey: 'Ю' },
+      },
+      {
+        code: 'Slash',
+        size: 'small',
+        en: { key: '/', capsAndKey: '/', shiftAndKey: '?' },
+        ru: { key: '.', capsAndKey: '.', shiftAndKey: ',' },
+      },
+      {
+        code: 'ArrowUp',
+        size: 'small',
+        en: { key: '▲', capsAndKey: '▲', shiftAndKey: '▲' },
+        ru: { key: '▲', capsAndKey: '▲', shiftAndKey: '▲' },
+      },
+      {
+        code: 'ShiftRight',
+        size: 'middle',
+        en: { key: 'Shift', capsAndKey: 'Shift', shiftAndKey: 'Shift' },
+        ru: { key: 'Shift', capsAndKey: 'Shift', shiftAndKey: 'Shift' },
       },
     ],
     [
       {
         code: 'ControlLeft',
-        size: 'middle',
-        en: {
-          key: 'Control',
-          capsAndKey: 'Control',
-          shiftAndKey: 'Control',
-        },
-        ru: {
-          key: 'Control',
-          capsAndKey: 'Control',
-          shiftAndKey: 'Control',
-        },
+        size: 'small',
+        en: { key: 'Ctrl', capsAndKey: 'Ctrl', shiftAndKey: 'Ctrl' },
+        ru: { key: 'Ctrl', capsAndKey: 'Ctrl', shiftAndKey: 'Ctrl' },
+      },
+      {
+        code: 'MetaLeft',
+        size: 'small',
+        en: { key: 'Win', capsAndKey: 'Win', shiftAndKey: 'Win' },
+        ru: { key: 'Win', capsAndKey: 'Win', shiftAndKey: 'Win' },
+      },
+      {
+        code: 'AltLeft',
+        size: 'small',
+        en: { key: 'Alt', capsAndKey: 'Alt', shiftAndKey: 'Alt' },
+        ru: { key: 'Alt', capsAndKey: 'Alt', shiftAndKey: 'Alt' },
+      },
+      {
+        code: 'Space',
+        size: 'big',
+        en: { key: '', capsAndKey: '', shiftAndKey: '' },
+        ru: { key: '', capsAndKey: '', shiftAndKey: '' },
+      },
+      {
+        code: 'AltRight',
+        size: 'small',
+        en: { key: 'Alt', capsAndKey: 'Alt', shiftAndKey: 'Alt' },
+        ru: { key: 'Alt', capsAndKey: 'Alt', shiftAndKey: 'Alt' },
+      },
+      {
+        code: 'ArrowLeft',
+        size: 'small',
+        en: { key: '◄', capsAndKey: '◄', shiftAndKey: '◄' },
+        ru: { key: '◄', capsAndKey: '◄', shiftAndKey: '◄' },
+      },
+      {
+        code: 'ArrowDown',
+        size: 'small',
+        en: { key: '▼', capsAndKey: '▼', shiftAndKey: '▼' },
+        ru: { key: '▼', capsAndKey: '▼', shiftAndKey: '▼' },
+      },
+      {
+        code: 'ArrowRight',
+        size: 'small',
+        en: { key: '►', capsAndKey: '►', shiftAndKey: '►' },
+        ru: { key: '►', capsAndKey: '►', shiftAndKey: '►' },
+      },
+      {
+        code: 'ControlRight',
+        size: 'small',
+        en: { key: 'Ctrl', capsAndKey: 'Ctrl', shiftAndKey: 'Ctrl' },
+        ru: { key: 'Ctrl', capsAndKey: 'Ctrl', shiftAndKey: 'Ctrl' },
       },
     ],
   ],
 };
-
-//* KeyboardEvent: key='`' | code='Backquote'
-
-//* KeyboardEvent: key='1' | code='Digit1'
-
-// KeyboardEvent: key='2' | code='Digit2'
-
-// KeyboardEvent: key='3' | code='Digit3'
-
-// KeyboardEvent: key='4' | code='Digit4'
-
-// KeyboardEvent: key='5' | code='Digit5'
-
-// KeyboardEvent: key='6' | code='Digit6'
-
-// KeyboardEvent: key='7' | code='Digit7'
-
-// KeyboardEvent: key='8' | code='Digit8'
-
-// KeyboardEvent: key='9' | code='Digit9'
-
-// KeyboardEvent: key='0' | code='Digit0'
-
-// KeyboardEvent: key='-' | code='Minus'
-
-// KeyboardEvent: key='=' | code='Equal'
-
-// KeyboardEvent: key='Backspace' | code='Backspace'
-
-//* KeyboardEvent: key='Tab' | code='Tab'
-
-// KeyboardEvent: key='q' | code='KeyQ'
-
-// KeyboardEvent: key='w' | code='KeyW'
-
-// KeyboardEvent: key='e' | code='KeyE'
-
-// KeyboardEvent: key='r' | code='KeyR'
-
-// KeyboardEvent: key='t' | code='KeyT'
-
-// KeyboardEvent: key='y' | code='KeyY'
-
-// KeyboardEvent: key='u' | code='KeyU'
-
-// KeyboardEvent: key='i' | code='KeyI'
-
-// KeyboardEvent: key='o' | code='KeyO'
-
-// KeyboardEvent: key='p' | code='KeyP'
-
-// KeyboardEvent: key='[' | code='BracketLeft'
-
-// KeyboardEvent: key=']' | code='BracketRight'
-
-// KeyboardEvent: key='\' | code='Backslash'
-
-// KeyboardEvent: key='Delete' | code='Delete'
-
-//* KeyboardEvent: key='CapsLock' | code='CapsLock'
-
-// KeyboardEvent: key='A' | code='KeyA'
-
-// KeyboardEvent: key='S' | code='KeyS'
-
-// KeyboardEvent: key='D' | code='KeyD'
-
-// KeyboardEvent: key='F' | code='KeyF'
-
-// KeyboardEvent: key='G' | code='KeyG'
-
-// KeyboardEvent: key='H' | code='KeyH'
-
-// KeyboardEvent: key='J' | code='KeyJ'
-
-// KeyboardEvent: key='K' | code='KeyK'
-
-// KeyboardEvent: key='L' | code='KeyL'
-
-// KeyboardEvent: key=';' | code='Semicolon'
-
-// KeyboardEvent: key=''' | code='Quote'
-
-// KeyboardEvent: key='Enter' | code='Enter'
-
-//* KeyboardEvent: key='Shift' | code='ShiftLeft'
-
-// KeyboardEvent: key='Z' | code='KeyZ'
-
-// KeyboardEvent: key='X' | code='KeyX'
-
-// KeyboardEvent: key='C' | code='KeyC'
-
-// KeyboardEvent: key='V' | code='KeyV'
-
-// KeyboardEvent: key='B' | code='KeyB'
-
-// KeyboardEvent: key='N' | code='KeyN'
-
-// KeyboardEvent: key='M' | code='KeyM'
-
-// KeyboardEvent: key=',' | code='Comma'
-
-// KeyboardEvent: key='.' | code='Period'
-
-// KeyboardEvent: key='/' | code='Slash'
-
-// KeyboardEvent: key='ArrowUp' | code='ArrowUp'
-
-// KeyboardEvent: key='Shift' | code='ShiftRight'
-
-//* KeyboardEvent: key='Control' | code='ControlLeft'
-
-// KeyboardEvent: key='Meta' | code='MetaLeft'
-
-// KeyboardEvent: key='Alt' | code='AltLeft'
-
-// KeyboardEvent: key=' ' | code='Space'
-
-// KeyboardEvent: key='Alt' | code='AltRight'
-
-// KeyboardEvent: key='ArrowLeft' | code='ArrowLeft'
-
-// KeyboardEvent: key='ArrowDown' | code='ArrowDown'
-
-// KeyboardEvent: key='ArrowDown' | code='ArrowDown'
-
-// KeyboardEvent: key='ArrowDown' | code='ArrowDown'
-
-// KeyboardEvent: key='ArrowDown' | code='ArrowDown'
-
-// KeyboardEvent: key='ArrowRight' | code='ArrowRight'
-
-// KeyboardEvent: key='Control' | code='ControlRight'
