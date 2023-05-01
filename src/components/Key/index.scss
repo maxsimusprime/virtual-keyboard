@@ -1,0 +1,38 @@
+.key {
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  height: 55px;
+  padding: 0;
+  text-align: center;
+  box-shadow: 5px 5px 5px $main-color-dark,
+              -5px -5px 10px $main-color-light;
+  color: $main-color-text;
+  background: $main-color;
+  font: 20px Arial, sans-serif;
+
+  &_size_small {
+    width: 55px;
+  }
+
+  &_size_middle {
+    width: 120px;
+  }
+
+  &_size_big {
+    width: 445px;
+  }
+
+  &_active {
+    background: $main-color-active;
+    box-shadow: 1px 1px 2px $shadow-color-light, 
+                -1px -1px 2px $shadow-color-dark;
+  }
+
+  &:active {
+    background: $main-color-active;
+    box-shadow: 1px 1px 2px $shadow-color-light, 
+                -1px -1px 2px $shadow-color-dark;
+  }
+
+}
