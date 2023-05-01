@@ -33,6 +33,9 @@ class Keys {
         const keyElement = key.$element;
         keyElement.addEventListener('mousedown', (e) => { this.mousedownHandler(e); });
         keyElement.addEventListener('mouseup', (e) => { this.mouseupHandler(e); });
+        keyElement.addEventListener('mouseout', (e) => {
+          if (e.buttons > 0) this.mouseupHandler(e);
+        });
         keysRow.append(keyElement);
       });
       this.$element.appendChild(keysRow);
@@ -77,8 +80,10 @@ class Keys {
           break;
         case 'ShiftLeft':
           key.keyUp();
-          this.changeShift();
-          this.changeKeys();
+          if (this.shift) {
+            this.changeShift();
+            this.changeKeys();
+          }
           break;
         case 'ShiftRight':
           key.keyUp();
@@ -118,14 +123,14 @@ class Keys {
           }
           break;
         case 'ControlLeft':
-          if (e.altKey) {
+          if (e.altKey && !e.repeat) {
             this.changeLang();
             this.changeKeys();
           }
           key.keyDown();
           break;
         case 'AltLeft':
-          if (e.ctrlKey) {
+          if (e.ctrlKey && !e.repeat) {
             this.changeLang();
             this.changeKeys();
           }
