@@ -29,10 +29,10 @@
                 -1px -1px 2px $shadow-color-dark;
   }
 
-  &:active {
-    background: $main-color-active;
-    box-shadow: 1px 1px 2px $shadow-color-light, 
-                -1px -1px 2px $shadow-color-dark;
-  }
+  // &:active {
+  //   background: $main-color-active;
+  //   box-shadow: 1px 1px 2px $shadow-color-light, 
+  //               -1px -1px 2px $shadow-color-dark;
+  // }
 
 }
